@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button routerLink="/"><ion-icon slot="icon-only" name="home"></ion-icon></ion-button>
+    </ion-buttons>
+    <ion-title>
+      <span *ngIf="product" ngDefaultControl [(ngModel)]="title">Product : {{product.title}}</span>
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button *ngIf="product" routerLink="/product-edit/{{product._id}}"> <ion-icon slot="icon-only" name="create"></ion-icon></ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-item>
+    <span *ngIf="product" ngDefaultControl [(ngModel)]="title">{{product.description}}</span>
+  </ion-item>
+  <ion-item>
+    <span *ngIf="product" ngDefaultControl [(ngModel)]="title">{{product.price}} €</span>
+  </ion-item>
+
+  <ion-item>
+    <img src="../../assets/images/product.jpg" />
+  </ion-item>
+
+</ion-content>

@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Shops
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/shop-add" >
+        <ion-icon slot="icon-only" name="add-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list *ngFor="let shop of shops">
+      
+      <ion-button expand="block" color="medium" routerLink="/boutique/{{shop._id}}">
+          {{shop.title}}
+       </ion-button>
+        
+    </ion-list>
+  </ion-content>
