@@ -71,11 +71,11 @@ To start coding we should understand the mecanism of angular and ionic.
 
 #### Angular Framework
 
-![](images/angular.jfif)
+![](images/angular-ionic.PNG)
 
 #### File Directory Structure
 
-![](images/fileDirectory.png)
+![](images/fileDirectory.PNG)
 
 
 
