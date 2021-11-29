@@ -4,17 +4,17 @@
 ![]( https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![]( https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## The architecture of a Full Stack project
-
-![](images/architecture.png)
+## The architecture of our Full Stack project
 
 We used NodeJs, MongoDb for our [Backend](https://github.com/Rafii-Ayoub/E-shop-Backend). And for the Frontend we used AngularJs and the framework Ionic.
+
+![](images/global-architecture.png)
+
 
 ## Getting Setup
 
 > _tip_: this frontend is designed to work with [NodeJS-based Backend](https://github.com/Rafii-Ayoub/E-shop-Backend). It is recommended to stand up the backend first, to test it using Postman, and then the frontend should integrate smoothly.
 
-### Installing Dependencies
 
 #### Installing Node and NPM
 
@@ -60,5 +60,23 @@ ionic lab
 * [typeScript](https://www.typescriptlang.org/) - A strongly typed programming language that builds on JavaScript
 * [Angular](https://angular.io/) - A TypeScript-based free and open-source web application framework 
 * [Ionic](https://ionicframework.com/) - A complete open-source SDK for hybrid mobile app development.
+
+## Architecture of an Angular Ionic project
+
+#### Angular - Ionic 
+
+To start coding we should understand the mecanism of angular and ionic.
+
+![](images/ionic-angular.ppm)
+
+#### Angular Framework
+
+![](images/angular.jfif)
+
+#### File Directory Structure
+
+![](images/fileDirectory.png)
+
+
 
 
