@@ -63,15 +63,16 @@ ionic lab
 
 ## Architecture of an Angular Ionic project
 
+
+
 #### Angular - Ionic 
 
+![](images/angular-ionic.PNG)
 To start coding we should understand the mecanism of angular and ionic.
-
-![](images/ionic-angular.ppm)
 
 #### Angular Framework
 
-![](images/angular-ionic.PNG)
+![](images/AnatomyOfAngular.png)
 
 #### File Directory Structure
 
